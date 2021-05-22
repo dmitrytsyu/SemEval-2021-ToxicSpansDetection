@@ -4,6 +4,11 @@ In the field of Natural Language Processing, the detection of text toxicity has 
 
 
 In Analytics file you can find meme :)
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
 
 
 |                                   |   MRC NO FINE-TUNED |   MRC SQUAD |   MRC SQUAD + QG |   MRC+NER NO GQ |   MRC+NER QG |   Усредненные результаты по моделям |
