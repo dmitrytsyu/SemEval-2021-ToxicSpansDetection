@@ -10,6 +10,11 @@ In Analytics file you can find meme :)
 | Backtick | `         |
 
 
+| Left-aligned | MRC NO FINE-TUNED | MRC SQUAD + QG  | MRC+NER NO GQ | Avg|
+| :---         |     :---:      |          ---: |  :---:        |:---: |
+| git status   | git status     | git status    | git status    |git status |
+| git diff     | git diff       | git diff      |git diff       | git diff  |
+
 
 
 |   a   |   MRC NO FINE-TUNED |   MRC SQUAD |   MRC SQUAD + QG |   MRC+NER NO GQ |   MRC+NER QG |   Avg |
