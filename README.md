@@ -5,12 +5,10 @@ In the field of Natural Language Processing, the detection of text toxicity has 
 
 \begin{table}[h!]
 \centering
-\caption{Результаты F1-метрики, полученные на $BASE$-моделях, на обучающей выборке}
-\label{tab:base-train}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|l|c|c|c|c|c|c|}
 \hline
-\diagbox[]{Модель}{Подход}& MRC & MRC SQuAD & \begin{tabular}[c]{@{}c@{}}MRC SQuAD \\ QG\end{tabular} & MRC+NER & \begin{tabular}[c]{@{}c@{}}MRC+NER\\ QG\end{tabular} & $AVG_{models}$\\ \hline
+& MRC & MRC SQuAD & \begin{tabular}[c]{@{}c@{}}MRC SQuAD \\ QG\end{tabular} & MRC+NER & \begin{tabular}[c]{@{}c@{}}MRC+NER\\ QG\end{tabular} & $AVG_{models}$\\ \hline
 BERT        & 0.489          & 0.471          & 0.480          & \textbf{0.652} & \textit{\textbf{0.763}} & 0.571\\ \hline
 RoBERTa     & 0.365          & 0.347          & 0.400          & 0.577          & \textit{0.756}   & 0.489       \\ \hline
 XLM-RoBERTa & \textbf{0.569} & \textbf{0.537} & 0.515          & 0.533          & \textit{0.715}    & 0.573      \\ \hline
