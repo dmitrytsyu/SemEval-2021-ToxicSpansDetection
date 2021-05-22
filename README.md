@@ -5,19 +5,17 @@ In the field of Natural Language Processing, the detection of text toxicity has 
 
 In Analytics file you can find meme :)
 
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
+Files:
+1. Analytics - the filw with all graphics and results from trained model
+2. MRC + NER - realized MRC + NER Approach
+3. MRC - realized MRC Approach
 
-
-| Left-aligned | MRC NO FINE-TUNED | MRC SQUAD + QG  | MRC+NER NO GQ | MRC+NER QG | Avg.    |
-| :---         |     :---:         |          ---:   |  :---:        |:---:       |  :---:|
-|.  BERT       |    0.489          |      0.471      |        0.48.  |  0.652     |       0.763  |                            
-| git status   | git status     | git status    | git status    |git status |
-| git diff     | git diff       | git diff      |git diff       | git diff  |
-
-
-
-|       |   MRC NO FINE-TUNED |   MRC SQUAD |   MRC SQUAD + QG |   MRC+NER NO GQ |   MRC+NER QG |   Усредненные результаты по моделям |
-|:-------|--------------------:|------------:|-----------------:|----------------:|-------------:|------------------------------------:|\n
-|BERT                               |              0.489  |      0.471  |           0.48   |          0.652  |       0.763  |                             0.571   |\n| ALBERT                             |              0.546  |      0.515  |           0.534  |          0.64   |       0.731  |                             0.5932  |\n| SpanBERT                           |              0.483  |      0.477  |           0.464  |          0.652  |       0.746  |                             0.5644  |\n| XLM-RoBERTa                        |              0.569  |      0.537  |           0.515  |          0.533  |       0.715  |                             0.5738  |\n| RoBERTa                            |              0.365  |      0.347  |           0.4    |          0.577  |       0.756  |                             0.489   |\n| Усредненные результаты по подходам |              0.4904 |      0.4694 |           0.4786 |          0.6108 |       0.7422 |                             0.55828 |\n| Среднее по подходам                |              0.4904 |      0.4694 |           0.4786 |          0.6108 |       0.7422 |                             0.55828 |
+|                                    |   MRC NO FINE-TUNED |   MRC SQUAD |   MRC SQUAD + QG |   MRC+NER NO GQ |   MRC+NER QG |   Усредненные результаты по моделям |
+|:-----------------------------------|--------------------:|------------:|-----------------:|----------------:|-------------:|------------------------------------:|
+| BERT                               |              0.489  |      0.471  |           0.48   |          0.652  |       0.763  |                             0.571   |
+| ALBERT                             |              0.546  |      0.515  |           0.534  |          0.64   |       0.731  |                             0.5932  |
+| SpanBERT                           |              0.483  |      0.477  |           0.464  |          0.652  |       0.746  |                             0.5644  |
+| XLM-RoBERTa                        |              0.569  |      0.537  |           0.515  |          0.533  |       0.715  |                             0.5738  |
+| RoBERTa                            |              0.365  |      0.347  |           0.4    |          0.577  |       0.756  |                             0.489   |
+| Усредненные результаты по подходам |              0.4904 |      0.4694 |           0.4786 |          0.6108 |       0.7422 |                             0.55828 |
+| Среднее по подходам                |              0.4904 |      0.4694 |           0.4786 |          0.6108 |       0.7422 |                             0.55828 |
