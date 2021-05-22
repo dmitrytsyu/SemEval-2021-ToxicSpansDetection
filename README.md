@@ -10,8 +10,9 @@ In Analytics file you can find meme :)
 | Backtick | `         |
 
 
-| Left-aligned | MRC NO FINE-TUNED | MRC SQUAD + QG  | MRC+NER NO GQ | Avg|
-| :---         |     :---:      |          ---: |  :---:        |:---: |
+| Left-aligned | MRC NO FINE-TUNED | MRC SQUAD + QG  | MRC+NER NO GQ | MRC+NER QG | Avg.    |
+| :---         |     :---:         |          ---:   |  :---:        |:---:       |  :---:|
+|.  BERT       |    0.489          |      0.471      |        0.48.  |  0.652     |       0.763  |                            
 | git status   | git status     | git status    | git status    |git status |
 | git diff     | git diff       | git diff      |git diff       | git diff  |
 
